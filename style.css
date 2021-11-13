@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 60px auto;
+    min-height: 300px;
+    width: 40vh;
+    background-color: white;
+    border: 2px solid gray;
+    padding-bottom: 1.5em;
+}
+
+.top-bar{
+    background-color: cadetblue;
+    padding-left: 1.5em;    
+}
+
+.top-bar img{
+    height: 60px;
+    position: relative;
+    top: 35px;
+}
+
+img{
+    height: 20px;
+}
+
+.hero{
+    background-color: white;
+    padding: 3em 1.5em;
+    min-height: 50px;
+}
+
+.location{
+    margin-bottom: 5px;
+}
+
+footer{
+    text-decoration: underline;
+    color: cornflowerblue;
+    padding-left: 1.5em;
+    margin: 0 5px;
+}
+
+.flexed{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.settings img{
+    height: 15px;
+}
